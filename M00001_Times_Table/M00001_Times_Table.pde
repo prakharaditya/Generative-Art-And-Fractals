@@ -1,6 +1,8 @@
-final int NUMBER_OF_POINTS   = 360 / 30;
-      int timesTable         = 1;
-final int RADIUS             = 200;
+      int points             = 30;  // Increase to 'lower' resolution.
+      int timesTable         = 1;   // Times table in use. 
+final int RADIUS             = 200; // Circle radius.
+
+final int NUMBER_OF_POINTS   = 360 / points;
       float[][] points;
 
 void setup()
