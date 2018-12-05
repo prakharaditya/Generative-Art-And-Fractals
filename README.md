@@ -9,6 +9,10 @@ Where possible, P5.js versions are also included, which can be used either in th
 
 Folder containing sketches that could be considered artistic, abstract or visually striking.
 
+***Fractals***
+
+Folder containing fractal sketches.
+
 ***Simple*** 
 
 Folder containing simple, or miscelaneous sketches.
