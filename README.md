@@ -13,9 +13,9 @@ Folder containing sketches that could be considered artistic, abstract or visual
 
 Folder containing fractal sketches.
 
-***Simple*** 
+***General*** 
 
-Folder containing simple, or miscelaneous sketches.
+Where most of the normal sketches are.
 
 ***Templates***
 
@@ -25,12 +25,8 @@ Folder containing template sketches to use as a base in other sketches.
 
 [Wikipedia](https://en.wikipedia.org/wiki/Cellular_automaton) A model of a system of cells that have a state, are confined to a grid and have an awareness of the state of their neighbours. 
 
+***Mathematical***
 
-# Root Level Sketches
-
-**Times Table:** A visual representation of the times table.
-
-**Square Rose:** Simple rotating rose made of squares.
-
+Sketches based on a mathematical approach.
 
 *ProcessingSketches.pde* is used to run sketches from Visual Studio Code as a sort of 'scratchpad'
