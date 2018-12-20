@@ -1,16 +1,21 @@
-      int points             = 30;  // Increase to 'lower' resolution.
+      int points             = 100;  // Increase to 'lower' resolution.
       int timesTable         = 1;   // Times table in use. 
 final int RADIUS             = 200; // Circle radius.
 
 final int NUMBER_OF_POINTS   = 360 / points;
-      float[][] points;
+      float[][] arrpoints;
 
 void setup()
 {
   size(600, 600);
-  points = new float[360 / NUMBER_OF_POINTS][2];
+  println(NUMBER_OF_POINTS);
+  println(360 / points);
+
+  arrpoints = new float[360 / NUMBER_OF_POINTS][2];
+ 
+   println(arrpoints.length);
   // END COUNTER CODE
-  frameRate(1);
+  frameRate(5);
   // END COUNTER CODE
 }
 
@@ -35,25 +40,26 @@ void draw()
   */
   for (int i = 0; i < 360; i+= NUMBER_OF_POINTS)
   {
-    points[p][0] = RADIUS * (float)Math.cos(radians(i)); // X
-    points[p][1] = RADIUS * (float)Math.sin(radians(i)); // Y
+    arrpoints[p][0] = RADIUS * (float)Math.cos(radians(i)); // X
+    arrpoints[p][1] = RADIUS * (float)Math.sin(radians(i)); // Y
     p++;
   }
-
-  for(int i = 0; i < points.length; i++)
+  println(NUMBER_OF_POINTS);
+  for(int i = 0; i < arrpoints.length; i++)
   {
     strokeWeight(5);
     
     // Draw a point.
-    point(points[i][0], points[i][1]); 
+    point(arrpoints[i][0], arrpoints[i][1]); 
     
     strokeWeight(2);
     
     // Calculate the point to draw to.
-    int n = (timesTable * i) % NUMBER_OF_POINTS;
+    int n = (timesTable * i) % (360 / NUMBER_OF_POINTS);
+    println(n);
     
     // Draw from current point to next point
-    line(points[i][0], points[i][1], points[n][0], points[n][1]);    
+    line(arrpoints[i][0], arrpoints[i][1], arrpoints[n][0], arrpoints[n][1]);    
   }
   
   // START COUNTER CODE
