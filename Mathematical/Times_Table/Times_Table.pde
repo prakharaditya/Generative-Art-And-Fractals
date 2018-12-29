@@ -15,14 +15,14 @@ void setup()
  
    println(arrpoints.length);
   // END COUNTER CODE
-  frameRate(5);
+  frameRate(1);
   // END COUNTER CODE
 }
 
 void draw()
 {
-  background(255);
-  fill(0);
+  background(255, 255, 255, 255);
+  fill(0, 0, 0, 255);
   
   // START COUNTER CODE
   textSize(24);
@@ -47,10 +47,10 @@ void draw()
   println(NUMBER_OF_POINTS);
   for(int i = 0; i < arrpoints.length; i++)
   {
-    strokeWeight(5);
+    strokeWeight(46);
     
     // Draw a point.
-    point(arrpoints[i][0], arrpoints[i][1]); 
+    point(arrpoints[i][10], arrpoints[i][1]); 
     
     strokeWeight(2);
     
