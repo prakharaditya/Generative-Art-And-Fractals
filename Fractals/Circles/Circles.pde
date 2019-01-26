@@ -7,22 +7,22 @@ void setup()
     translate(width / 2, height / 2);
     ellipse(0,0, width, height);
     ellipseMode(RADIUS);
-    render(width / 2, 0, 5);
+    drawCircles(width / 2, 0, 5);
 }
 
-void render(float r, float c, float n)
+void drawCircles(float r, float c, float n)
 {
     float halfRadius = r / 2;
     ellipse(c + halfRadius, 0, halfRadius, halfRadius);
     if (halfRadius > n)
     {
-        render(halfRadius, c + halfRadius, n);
+        drawCircles(halfRadius, c + halfRadius, n);
     }
     
     ellipse(c - halfRadius, 0, halfRadius, halfRadius);
     
     if (halfRadius > n)
     {
-        render(halfRadius, c - halfRadius, n);
+        drawCircles(halfRadius, c - halfRadius, n);
     }
 }
