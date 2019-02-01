@@ -10,10 +10,18 @@
 - **Eden Growth Model**
     - Implementation of the [Eden growth model](https://en.wikipedia.org/wiki/Eden_growth_model)
 - **Noise Grids**
+    - Experiments using Perlin noise to display various grids.
 - **Noise Spiral**
+    - Spiral pattern using Perlin noise to add variations in the line drawing.
 - **Perlin 2D**
+    - Greyscale Perlin 2D noise rendering.
 - **Phyllotaxis**
+    - Implementation of the [Phyllotaxis](https://en.wikipedia.org/wiki/Phyllotaxis) arrangement of leaves on a plant.
 - **Sine**
+    - A collection of sketches using Sine to affect movement.
 - **Superformula**
+    - An implemetation of the [Superformula](https://en.wikipedia.org/wiki/Superformula).
 - **Times Table**
+    - Visualisation of the times table.
+    - See Times_Table/README.md
 
