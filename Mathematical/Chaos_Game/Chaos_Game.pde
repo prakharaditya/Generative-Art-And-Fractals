@@ -105,9 +105,9 @@ void mouseClicked()
 
 void mouseWheel(MouseEvent e)
 {
-    //sf += e.getAmount() / 100;
-    //tX -= e.getAmount() * mouseX / 100;
-    //tY -= e.getAmount() * mouseY / 100;
+    sf += e.getAmount() / 100;
+    tX -= e.getAmount() * mouseX / 100;
+    tY -= e.getAmount() * mouseY / 100;
     background(0);
     seed();
 }
