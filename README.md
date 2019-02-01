@@ -2,8 +2,7 @@
 
 <hr />
 
-A collection of processing sketches specifically generative art, mathematical
-visualisations and more. 
+A collection of processing sketches specifically generative art, mathematical visualisations and more. 
 
 <hr />
 

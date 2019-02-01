@@ -11,7 +11,7 @@ void draw()
   background(255);
   int [][] myData = new int [50][50];
   myClearData(myData);
-  myCircle(myData, 20, 20, 1);
+  myCircle(myData, 20, 20, 20);
   myDraw(myData); 
   noLoop();
 }

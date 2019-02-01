@@ -49,24 +49,24 @@ public void myClearData(int[][] array)
 
 public void myRandomSet(int[][] array, int n)
 {
- int i = 0;
- int j = 0;
- boolean go = false;
- 
- for (int k = 0; k < n; k++)
- {
-   i = (int)random(array.length);   
-   j = (int)random(array[i].length);
-   
-   while(!go)
-   {
-     i = (int)random(array.length);   
-     j = (int)random(array[i].length);
-     
-     go = (array[i][j] == 1) ? false : true;      
-     
-   }
-   array[i][j] = 1;
-   go = false;
- }
+  int i = 0;
+  int j = 0;
+  boolean go = false;
+  
+  for (int k = 0; k < n; k++)
+  {
+    i = (int)random(array.length);   
+    j = (int)random(array[i].length);
+    
+    while(!go)
+    {
+      i = (int)random(array.length);   
+      j = (int)random(array[i].length);
+      
+      go = (array[i][j] == 1) ? false : true;      
+      
+    }
+    array[i][j] = 1;
+    go = false;
+  }
 }
