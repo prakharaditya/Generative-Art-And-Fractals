@@ -9,6 +9,8 @@
     - Mouse wheel zooms in / out.
 - **Eden Growth Model**
     - Implementation of the [Eden growth model](https://en.wikipedia.org/wiki/Eden_growth_model)
+- **Lissajous Figures**
+    - Implementation of multiple [Lissajous curves](https://en.wikipedia.org/wiki/Lissajous_curve)
 - **Noise Grids**
     - Experiments using Perlin noise to display various grids.
 - **Noise Spiral**
