@@ -1,7 +1,7 @@
 float a = 6.0;   // Size
 float b = 6.0;   // Size
-float m = 4.0;  // No. of points
-float n1 = 1;  // Smoothness
+float m = 4.0;   // No. of points
+float n1 = 1;    // Smoothness
 float n2 = 1.0;  // Shape of spikes
 float n3 = 1.0;  // Shape of spikes
 float theta_inc = 0.001;

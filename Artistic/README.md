@@ -6,9 +6,11 @@ These sketches are ones that I hold in regard to their value to me artistically,
 
 <hr />
 
-- **Floor Tiles**
-    - Triangular pattern reminiscent floor tiles.
-- **Pac Man**
-    - Abstract generative explosion of pac men.
-- **Square Rose**
-    - Layered squares which rotate to form a rose.
+-   **Floor Tiles**
+    -   Triangular pattern reminiscent floor tiles.
+-   **Pac Man**
+    -   Abstract generative explosion of pac men.
+-   **Square Rose**
+    -   Layered squares which rotate to form a rose.
+-   **Wireframe**
+    -   Random connected points in a 3D plane
