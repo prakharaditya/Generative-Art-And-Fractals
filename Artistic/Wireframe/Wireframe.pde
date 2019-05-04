@@ -18,7 +18,7 @@ void draw()
 {
   background(51);
   //rotateZ(angle);
-    rotateX(angle);
+  rotateX(angle);
   
   points = (PVector[]) expand(points, points.length + 1);
   

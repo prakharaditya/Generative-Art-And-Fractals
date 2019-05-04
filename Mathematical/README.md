@@ -19,8 +19,6 @@
     -   Spiral pattern using Perlin noise to add variations in the line drawing.
 -   **Perlin 2D**
     -   Greyscale Perlin 2D noise rendering.
--   **Perlin Flow Field**
-    -   Simulation of a flow field using Perlin noise, with particles showing the flow.
 -   **Phyllotaxis**
     -   Implementation of the [Phyllotaxis](https://en.wikipedia.org/wiki/Phyllotaxis) arrangement of leaves on a plant.
 -   **Reaction Diffusion**

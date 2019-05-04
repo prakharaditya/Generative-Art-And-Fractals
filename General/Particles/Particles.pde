@@ -12,7 +12,6 @@ void setup() {
 }
 
 void draw() {
-  println(ps.size());
   background(0);
   
   for (int i = 0; i < 10; ++i)
