@@ -44,6 +44,8 @@
     -   Entity which moves in 8 directions in a random fashion.
 -   **Simple Water**
     -   Simple undulating water using 1D Perlin noise.
+-   **Sphere**
+    -   It's a sphere!
 -   **Spiral Circles**
     -   Spiral pattern, prototype for Phyllotaxis
 -   **Spirals**

@@ -7,6 +7,8 @@
     -   Left and right clicks of the mouse increase and decrease the number of points.
     -   R key resets the sketch.
     -   Mouse wheel zooms in / out.
+-   **Circle Cheat**
+    -   Draw a whole circle using only 1/8th of the calculations!
 -   **Eden Growth Model**
     -   Implementation of the [Eden growth model](https://en.wikipedia.org/wiki/Eden_growth_model)
 -   **Lissajous Figures**
