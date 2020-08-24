@@ -1,3 +1,0 @@
-# Fractal Sketches
-
-<hr />

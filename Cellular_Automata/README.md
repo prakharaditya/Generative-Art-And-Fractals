@@ -1,3 +1,0 @@
-# Cellular Automata
-
-<hr />
